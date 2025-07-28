@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <special-header></special-header>
+
+    <h1 style="text-align: center">Contact Us</h1>
+
+    <main>
+      <form id="contactForm">
+        <label>Name: <input type="text" id="name" required /></label>
+        <label>Email: <input type="email" id="email" required /></label>
+        <label>Message: <textarea id="message" required></textarea></label>
+        <label
+          >To Photographer:
+          <select id="targetPhotographer" required>
+            <option value="">Select Photographer</option>
+            <option value="admin1">Photographer 1</option>
+            <option value="admin2">Photographer 2</option>
+            <option value="admin3">Photographer 3</option>
+            <option value="admin4">Photographer 4</option>
+          </select>
+        </label>
+        <button type="submit">Send</button>
+      </form>
+    </main>
+
+    <special-footer></special-footer>
+
+    <script src="headerfooter.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

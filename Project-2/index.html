@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <special-header></special-header>
+
+    <!-- Photographer Filter Links -->
+    <div class="photographer-links">
+      <button onclick="filterByPhotographer('all')">All Photos</button>
+      <button onclick="filterByPhotographer('admin1')">Photographer 1</button>
+      <button onclick="filterByPhotographer('admin2')">Photographer 2</button>
+      <button onclick="filterByPhotographer('admin3')">Photographer 3</button>
+      <button onclick="filterByPhotographer('admin4')">Photographer 4</button>
+    </div>
+
+    <!-- Gallery Section -->
+    <main class="gallery" id="gallery"></main>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+      <span onclick="closeLightbox()">&times;</span>
+      <img id="lightbox-img" src="" alt="Large View" />
+    </div>
+
+    <special-footer></special-footer>
+
+    <script src="headerfooter.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

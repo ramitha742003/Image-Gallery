@@ -1,0 +1,198 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: right;
+}
+
+header h4 {
+  text-align: left;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1em;
+}
+
+.gallery img {
+  width: 200px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox img {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.lightbox span {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+
+form label {
+  margin-bottom: 1em;
+  text-align: center;
+  justify-content: center;
+}
+
+button {
+  padding: 0.5em;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #555;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td button {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+td button:hover {
+  background-color: #c9302c;
+}
+
+/*footer*/
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2em 1em;
+  margin-top: 2em;
+  font-size: 14px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 220px;
+  margin: 1em 0;
+}
+
+.footer-column h5 {
+  margin-bottom: 0.5em;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 0.5em;
+}
+
+.footer-column a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+.footer-divider {
+  border-top: 1px solid #555;
+  margin: 1em auto;
+  width: 90%;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+.photographer-links {
+  text-align: center;
+  margin: 1em 0;
+}
+.photographer-links button {
+  padding: 0.5em 1em;
+  margin: 0 5px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.photographer-links button:hover {
+  background-color: #666;
+}
