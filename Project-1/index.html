@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home | Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Include header -->
+    <special-header></special-header>
+
+  <h1 style="text-align: center;">MY GALLERY</h1>
+
+  <!-- Main gallery section -->
+  <main class="gallery" id="gallery"></main>
+
+  <!-- Lightbox viewer -->
+  <div id="lightbox" class="lightbox">
+    <span onclick="closeLightbox()">&times;</span>
+    <img id="lightbox-img" src="" alt="Large View">
+  </div>
+
+    <!-- Include footer -->
+    <special-footer></special-footer>
+
+    <script src="headerfooter.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

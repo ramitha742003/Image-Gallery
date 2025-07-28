@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AdminDashboard | Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="admin.html" onclick="logout()">Logout</a>
+      </nav>
+    </header>
+
+    <h1 style="text-align: center">Admin Dashboard</h1>
+    <hr />
+
+    <main>
+      <section>
+        <h2 style="text-align: center">Upload Image</h2>
+        <form id="uploadForm">
+          <label style="text-align: left"
+            >Title: <input type="text" id="imgTitle" required
+          /></label>
+          <label style="text-align: left">Select Image: </label>
+          <input type="file" id="imgFile" accept="image/*" required /><br />
+          <button type="submit">Upload</button><br />
+        </form>
+      </section>
+      <hr />
+
+      <section>
+        <h2 style="text-align: center">Uploaded Images</h2>
+        <div class="gallery" id="adminGallery"></div>
+      </section>
+      <hr />
+
+      <section>
+        <h2 style="text-align: center">Messages</h2>
+        <table id="messageTable">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Message</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Messages will be inserted here -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+
+    <!-- Include footer -->
+    <special-footer></special-footer>
+
+    <script src="headerfooter.js"></script>
+  </body>
+</html>
