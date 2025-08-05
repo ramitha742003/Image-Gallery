@@ -51,8 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const pass = document.getElementById("password").value.trim();
 
       const validAdmins = ["admin1", "admin2", "admin3", "admin4"];
-      const validPass = ["admin1", "admin2", "admin3", "admin4"];
-      if (validAdmins.includes(user) && validPass.includes(pass)) {
+      if (validAdmins.includes(user) && pass === "admin123") {
         localStorage.setItem("adminLoggedIn", user);
         location.href = "dashboard.html";
       } else {
@@ -213,3 +212,4 @@ function filterByPhotographer(photographer) {
     }
   });
 }
+
