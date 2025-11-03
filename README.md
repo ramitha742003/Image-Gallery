@@ -5,3 +5,6 @@ The visitors who visits the website wants to contact a photographer can message 
 
 Tools used: HTML, CSS, JavaScript.
 
+# Figma Design URL 
+https://www.figma.com/design/Ocxbtnm5ye6gKgNaRXDDfY/Photography?node-id=0-1&p=f&t=9BNYxlGc3z4pDTmU-0
+
