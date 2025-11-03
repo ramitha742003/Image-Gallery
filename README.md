@@ -5,10 +5,10 @@ The visitors who visit the website wants to contact the photographers can messag
 
 Tools used: HTML, CSS, JavaScript.
 
-# Figma Design 
+# Figma Design Of Project-2
 https://www.figma.com/design/Ocxbtnm5ye6gKgNaRXDDfY/Photography?node-id=0-1&p=f&t=9BNYxlGc3z4pDTmU-0
 
-# Images Of Project1
+# Images Of Project-2
 
 Home Page
 
