@@ -8,7 +8,7 @@ Tools used: HTML, CSS, JavaScript.
 # Figma Design 
 https://www.figma.com/design/Ocxbtnm5ye6gKgNaRXDDfY/Photography?node-id=0-1&p=f&t=9BNYxlGc3z4pDTmU-0
 
-# Images
+# Images Of Project1
 
 Home Page
 
