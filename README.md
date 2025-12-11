@@ -1,9 +1,12 @@
 # Image-Gallery
 
-Designed a front-end based photography website where the photographers will add their photos (such as nature, etc.) or delete them.
-The visitors who visit the website wants to contact the photographers can message them through contact us page.
+Designed a front-end based photography website where the photographers will add their photos (such as nature, etc.) or delete them. 
 
-Tools used: HTML, CSS, JavaScript.
+If the visitors who visit the website wants to contact the photographers, can message them through contact us page.
+
+Created a visual design using figma.
+
+Tools used: HTML, CSS, JavaScript, Figma.
 
 # Figma Design Of Project-2
 https://www.figma.com/design/Ocxbtnm5ye6gKgNaRXDDfY/Photography?node-id=0-1&p=f&t=9BNYxlGc3z4pDTmU-0
