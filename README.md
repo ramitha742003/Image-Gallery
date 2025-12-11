@@ -4,7 +4,7 @@ Designed a front-end based photography website where the photographers will add 
 
 If the visitors who visit the website wants to contact the photographers, can message them through contact us page.
 
-Created a visual design using figma.
+Created a wireframe / visual design using figma.
 
 Tools used: HTML, CSS, JavaScript, Figma.
 
