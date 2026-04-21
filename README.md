@@ -1,4 +1,4 @@
-# Image-Gallery
+# Image Gallery
 
 Designed a front-end based photography website where the photographers will add their photos (such as nature, etc.) or delete them. 
 
